@@ -62,7 +62,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure Web App Deploy: hello-world-rest-api-vijaykarthikmr-2911'
             inputs:
-              azureSubscription: $(azureSubscription)
+              azureSubscription: 'hello-world-rest-api-azure-pipelines-service-connection'
               appType: webAppLinux
               appName: $(webAppName)
               package: '$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)'
