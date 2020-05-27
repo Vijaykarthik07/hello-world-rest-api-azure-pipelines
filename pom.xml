@@ -55,7 +55,7 @@
 				<configuration>
 					<schemaVersion>V2</schemaVersion>
 					<resourceGroup>BPML_AppDev</resourceGroup>
-					<appName>hello-world-rest-api-vijaykarthikmr-2911</appName>
+					<appName>hello-world-rest-api-vijaykarthik-2911</appName>
 					<pricingTier>B1</pricingTier>
 					<region>westeurope</region>
 					<appSettings>
